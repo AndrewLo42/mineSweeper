@@ -8,7 +8,7 @@ module.exports = {
   },
   entry: clientPath,
   output: {
-    path: 'publicPath'
+    path: publicPath
   },
   module: {
     rules: [{
