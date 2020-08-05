@@ -2,14 +2,13 @@ const path = require('path');
 
 const clientPath = path.resolve(__dirname, 'client');
 const publicPath = path.resolve(__dirname, 'server/public');
-
 module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
   entry: clientPath,
   output: {
-    path: publicPath
+    path: '/mineSweeper/'
   },
   module: {
     rules: [{

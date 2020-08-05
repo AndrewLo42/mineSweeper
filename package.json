@@ -1,15 +1,14 @@
 {
-  "homepage": "http://andrewlo42.github.io/shroom-sweeper",
+  "homepage": "http://andrewlo42.github.io/mineSweeper",
   "name": "minesweeper",
   "version": "1.0.0",
   "private": true,
   "description": "Minesweeper React",
   "scripts": {
-    "build": "webpack --mode=production",
+    "build": "webpack -p",
     "dev": "npm-run-all --silent --parallel dev:*",
     "dev:client": "webpack-dev-server",
     "start": "node server/index.js",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "lint-staged": {
@@ -46,7 +45,7 @@
     "lint-staged": "9.4.3",
     "npm-run-all": "4.1.5",
     "webpack": "^4.41.2",
-    "webpack-cli": "3.3.10",
+    "webpack-cli": "^3.3.10",
     "webpack-dev-server": "3.9.0"
   },
   "eslintIgnore": [
