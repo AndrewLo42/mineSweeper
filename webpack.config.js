@@ -8,7 +8,7 @@ module.exports = {
   },
   entry: clientPath,
   output: {
-    path: '/mineSweeper/server/public'
+    path: 'publicPath'
   },
   module: {
     rules: [{
