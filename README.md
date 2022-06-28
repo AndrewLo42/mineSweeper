@@ -8,3 +8,4 @@ Mine Sweeper clone built in React with a League of Legends inspired theme.
 # Need to Fix:
 - View is broken on smaller pages. 
 - Not compatible with mobile... Can it be fixed?
+-- Might need to dynamically size things
